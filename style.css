@@ -143,3 +143,17 @@ h2 {
     color: #c59d5f;
     margin-bottom: 10px;
 }
+
+.instagram {
+    display: inline-block;
+    font-size: 30px;
+    color: white;
+    background: #c59d5f;
+    padding: 12px 15px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.instagram:hover {
+    background: #a67c3d;
+}
