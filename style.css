@@ -42,7 +42,7 @@ section {
 }
 
 .hero button {
-    background-color: #c59d5f;
+    background-color: hsl(120, 47%, 57%);
     color: white;
     border: none;
     padding: 14px 28px;
