@@ -85,11 +85,22 @@ h2 {
 }
 
 .contact {
-     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
                 url('img/Momentos.jpeg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    
+    min-height: 300px; /* altura mínima */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* centra vertical */
+    align-items: center;     /* centra horizontal */
+
+    text-align: center;
     color: white;
+    padding: 60px 20px;
 }
 
 .contact h2 {
